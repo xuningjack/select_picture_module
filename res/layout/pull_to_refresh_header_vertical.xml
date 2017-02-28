@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 下拉刷新头部的布局 -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/fl_inner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/pull_to_refresh_image"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/pull_to_refresh_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true" />
+        </LinearLayout>
+        
+        <ProgressBar 
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/im_loading_icon" 
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</merge>

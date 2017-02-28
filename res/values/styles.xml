@@ -1,0 +1,61 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- ActionSheet样式 -->
+    <style name="im_action_sheet">
+        <item name="action_sheet_background">@null</item>
+        <item name="cancel_button_background">@drawable/normal_rounderd_state_background</item>
+        <item name="other_button_top_background">@drawable/normal_top_state_background</item>
+        <item name="other_button_middle_background">@drawable/normal_state_background</item>
+        <item name="other_button_bottom_background">@drawable/normal_bottom_state_background</item>
+        <item name="other_button_single_background">@drawable/normal_rounderd_state_background</item>
+        <item name="cancel_button_text_color">@color/yellow_text</item>
+        <item name="other_button_text_color">@color/yellow_text</item>
+        <item name="action_sheet_padding">@dimen/normal_padding</item>
+        <item name="other_button_spacing">@dimen/normal_item_spacing</item>
+        <item name="cancel_button_margin_top">@dimen/big_item_spacing</item>
+        <item name="action_sheet_text_size">@dimen/normal_text</item>
+    </style>
+    
+    <style name="im" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:colorForeground">@android:color/white</item>
+        <item name="android:dividerHeight">@dimen/normal_item_spacing</item>
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <!-- <item name="vpiCirclePageIndicatorStyle">@android:color/darker_gray</item> -->
+    </style>
+    
+     <!-- 无背景 -->
+    <style name="im_no_background" parent="im">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    
+    <!-- 白色18号字体文本 -->
+    <style name="im_white_text" parent="im_no_background">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+    
+</resources>

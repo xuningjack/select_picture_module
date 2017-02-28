@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SlidingMenu使用 -->
+    <item name="selected_view" type="id"/>
+	
+    <!-- PullToRefreshGridView使用 -->
+    <item name="gridview" type="id"/>
+</resources>

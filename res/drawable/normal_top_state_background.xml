@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 通用可点击条目头部圆角背景 -->
+    <item android:state_pressed="false"><shape>
+            <corners android:topLeftRadius="@dimen/normal_radius" android:topRightRadius="@dimen/normal_radius" />
+
+            <solid android:color="@android:color/white" />
+        </shape></item>
+    <item android:state_pressed="true"><shape>
+            <corners android:topLeftRadius="@dimen/normal_radius" android:topRightRadius="@dimen/normal_radius" />
+
+            <solid android:color="@color/clickable_down" />
+        </shape></item>
+
+</selector>

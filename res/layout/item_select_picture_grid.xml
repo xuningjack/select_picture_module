@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 选中图片的布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp" >
+
+    <com.example.uicomponents.IMImageView
+        android:id="@+id/select_picture_grid_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_picture" />
+
+    <com.example.uicomponents.IMImageView
+        android:id="@+id/select_picture_grid_item_check"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/select_picture_grid_item_flag"
+        android:visibility="gone" />
+
+</RelativeLayout>

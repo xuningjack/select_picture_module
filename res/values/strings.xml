@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_select_picture_module</string>
+    <string name="take_photo">拍照</string>
+    <string name="upload_from_album">从相册选择</string>
+    <string name="cancel">取消</string>
+
+    <!-- PullToRefresh提示文字 -->
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开即可刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新</string>
+    <string name="pull_down_refresh_complete_label">刷新成功</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_from_bottom_release_label">松开即可加载</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">正在加载</string>
+    <string name="pull_up_refresh_complete_label">加载成功</string>
+    
+    <string name="only_select_pictures">只能选择%1$d张图片</string>
+
+</resources>

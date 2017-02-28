@@ -1,0 +1,22 @@
+<resources>
+
+ 	<!-- 正常边界尺寸 -->
+    <dimen name="normal_padding">16px</dimen>
+    <!-- 正常文字尺寸 -->
+    <dimen name="normal_text">18sp</dimen>
+    
+    
+    <!-- 正常圆角尺寸 -->
+    <dimen name="normal_radius">6dp</dimen>
+    
+    <!-- 子元素大间隔 -->
+    <dimen name="big_item_spacing">10dp</dimen>
+    
+    <!-- 正常子元素间隔 -->
+    <dimen name="normal_item_spacing">1px</dimen>
+    
+    
+    
+    
+    
+</resources>

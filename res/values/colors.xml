@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    
+    <!-- 通用可点击条目按下颜色 -->
+    <color name="clickable_down">#D8D3CE</color>
+    
+    <!-- 黄色文字 -->
+    <color name="yellow_text">#FDA01D</color>
+    
+    <!-- LoadingAlert背景 -->
+    <color name="loding_alert_background">#FFFFFF</color>
+    
+    <color name="gray_button_down_background">#BBB2A4</color>
+    
+    
+    
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 查看可选的本地照片的详情页 -->
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- <HeadBar
+        android:id="@+id/select_picture_head_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true" /> -->
+    
+    <com.wuba.bangbang.uicomponents.pulltorefresh.PullToRefreshGridView
+        android:id="@+id/select_picture_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="2dp"
+        android:numColumns="3"
+        android:verticalSpacing="2dp"
+		android:layout_alignParentTop="true">
+        
+        
+    </com.wuba.bangbang.uicomponents.pulltorefresh.PullToRefreshGridView>
+		
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#CCCCCC"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <HorizontalScrollView
+            android:id="@+id/select_picture_scroll_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/selected_image_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/select_picture_ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!-- 提示框 -->
+    <ProgressBar
+        android:id="@+id/select_picture_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

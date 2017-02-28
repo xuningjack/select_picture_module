@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 选择的图片item -->
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- 选择的图片 -->
+    <com.example.uicomponents.IMImageView
+        android:id="@+id/select_picture"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:maxWidth="66dp"
+        android:maxHeight="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/alert_single_button_background" />
+
+    <!-- 删除按钮 -->
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="-10dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/select_picture"
+        android:layout_alignRight="@+id/select_picture"
+        android:src="@drawable/item_delete_pic" />
+
+</RelativeLayout>
